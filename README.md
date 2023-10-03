@@ -9,7 +9,12 @@ Here we develop Speech Generative project which conatin the folowing tools.
   conda activate <env_name>
   git clone https://github.com/USTAADCOM/Speech_brain.git
   cd Speech_brain
+  pip install -r requirements.txt -q
   ```
+## Download Models
+  ```code
+  bash download_ckpt.sh
+```
 ## create .env
 
 * api-key = secret key here
