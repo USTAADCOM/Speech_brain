@@ -64,6 +64,6 @@ Response
 }
 ```
 ## Run Tool
-code```
-python3 app.py
+```code
+ python3 app.py
 ```
