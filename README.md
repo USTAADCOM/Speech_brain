@@ -11,29 +11,29 @@ Here we develop Speech Generative project which conatin the folowing tools.
   cd Speech_brain
   ```
 ## create .env
-code```
-api-key = secret key here
-CLOUD_NAME = cloud name (cloudinary)
-API_KEY = cloudinary api key
-API_SECRET = cloudinary secret phrase
-```
+
+* api-key = secret key here
+* CLOUD_NAME = cloud name (cloudinary)
+* API_KEY = cloudinary api key
+* API_SECRET = cloudinary secret phrase
+
 ## Project Structure
 ```bash
 Speech_brain
-   │   lambda_function.py
-   │   test_encryption_decyption.py
-   │   test_frequency_counter.py
-   │   test_pladirme_checker.py
-   │   test_prime_checker.py
-   │   test_word_counter.py
-   ├───module
-       |  ceasrer_cipher_encryption_decryption.py
-       │   pladirme_checker.py
-       │   prime_checker.py
-       │   word_counter.py
-       │   word_frequency_counter.py
+│   .env
+│   .gitignore
+│   app.py
+│   lint-requirements.txt
+│   pyproject.toml
+│   README.md
+│   requirements.txt
+│   setup.py
+│
+└───modules
+    │   speech_to_text_module.py
+    │   text_to_speech_module.py
+    │
 ```
-
 ## Text To Speech 
 Payload
 ```code
